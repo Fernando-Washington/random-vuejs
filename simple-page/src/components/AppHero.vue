@@ -26,18 +26,12 @@
 <script>
 import virtualReality from "../assets/images/girl-virtual-reality.svg";
 import arrowRight from "../assets/images/arrow.svg";
-import lacation from "../assets/images/location.svg";
-import envelope from "../assets/images/envelope.svg";
-import phone from "../assets/images/phone.svg";
 
 export default {
   data() {
     return {
       virtualReality,
       arrowRight,
-      lacation,
-      envelope,
-      phone,
     };
   },
 };

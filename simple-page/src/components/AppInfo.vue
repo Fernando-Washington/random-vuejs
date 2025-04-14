@@ -1,20 +1,34 @@
 <template>
   <div class="info-container">
-      <div class="image-container">
-        <h3>Pay Us a Visit</h3>
-        <p>Union St, Seattle, WA 98101, United States</p>
-        <img :src="location" alt="">
-      </div>
-      <div class="image-container">
-        <h3>Give Us a Call</h3>
-        <p>(110) 1111-1010</p>
-        <img :src="envelope" alt="">
-      </div>
-      <div class="image-container">
-        <h3>Send Us a Message</h3>
-        <p>Contact@HydraVTech.com</p>
-        <img :src="phone" alt="">
-      </div>
+    <!-- first block -->
+    <div class="image-container">
+      <img class="info-icon" :src="location" alt="" />
+      <br />
+    </div>
+    <div class="text-container">
+      <h3>Pay Us a Visit</h3>
+      <p>Union St, Seattle, WA 98101, United States</p>
+    </div>
+
+    <!-- second block -->
+    <div class="image-container">
+      <img class="info-icon" :src="envelope" alt="" />
+      <br />
+    </div>
+    <div class="text-container">
+      <h3>Give Us a Call</h3>
+      <p>(110) 1111-1010</p>
+    </div>
+
+    <!-- third block-->
+    <div class="image-container">
+      <img class="info-icon" :src="phone" alt="" />
+      <br />
+    </div>
+    <div class="text-container">
+      <h3>Send Us a Message</h3>
+      <p>Contact@HydraVTech.com</p>
+    </div>
   </div>
 </template>
 
@@ -34,3 +48,26 @@ export default {
   },
 };
 </script>
+
+<style>
+.info-container {
+  display: flex;
+  transform: scale(0.80);
+  align-items: center;
+  background-color: red;
+  padding: 1rem;
+  border-radius: 300px;
+}
+
+.image-container {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.text-container {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.image-container > .info-icon {
+  width: 48px;
+}
+</style>

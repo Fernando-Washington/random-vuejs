@@ -53,8 +53,9 @@ header {
 }
 
 .logo {
-  width: 80px;
+  width: 72px;
   margin: 0 1rem;
+  padding-top: 0.6rem;
 }
 
 nav {

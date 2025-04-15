@@ -54,7 +54,7 @@ export default {
   display: flex;
   transform: scale(0.80);
   align-items: center;
-  background-color: red;
+  background: linear-gradient(90deg, #8176afb9, #252525b9);
   padding: 1rem;
   border-radius: 300px;
 }
@@ -65,7 +65,14 @@ export default {
 
 .text-container {
   padding: 1rem 1rem 1rem 0;
+  font-family: "montserrat", sans-serif;
 }
+
+.text-container > h3 {
+  position: relative;
+  top: 18px;
+  color: #FFFFFF;
+} 
 
 .image-container > .info-icon {
   width: 48px;

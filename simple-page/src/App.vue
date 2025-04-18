@@ -7,6 +7,7 @@
     </main>
         <AppInfo />
         <InfoBanner />
+        <AboutHydra />
 </template>
 
 <script>
@@ -14,6 +15,7 @@
     import AppHero from "./components/AppHero.vue";
     import AppInfo from "./components/AppInfo.vue";
     import InfoBanner from "./components/InfoBanner.vue";
+    import AboutHydra from "./components/AboutHydra.vue";
 
     export default {
     name: "App",
@@ -22,6 +24,7 @@
     AppHero,
     AppInfo,
     InfoBanner,
+    AboutHydra,
     },
 };
 </script>

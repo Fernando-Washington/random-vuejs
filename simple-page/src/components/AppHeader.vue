@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <div class="header-container">
     <div class="logo-container">
       <img class="logo" :src="logo" alt="" />
       <img :src="hydra" alt="" />
@@ -16,7 +16,7 @@
       <a class="contact-btn" href="#">CONTACT US</a>
       <a class="join-btn" href="#">JOIN HYDRA</a>
     </div>
-  </header>
+  </div>
 </template>
 
 <script>
@@ -37,7 +37,7 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-header {
+.header-container {
   width: 100%;
   height: 72px;
   padding: 1rem 0.4rem;

@@ -2,10 +2,10 @@
   <div class="container">
     <div class="title-container">
       <h2>
-        <span class="bold-text"> Introduction </span>
+        <span class="bold-text"> {{title1}} </span>
       </h2>
       <h2>
-        <span class="thin-text"> To hydra vr </span>
+        <span class="thin-text"> {{title2}} </span>
       </h2>
     </div>
     <div class="arrow-container">
@@ -13,11 +13,7 @@
     </div>
     <div class="text-container">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
-        placeat molestias optio maiores mollitia, a sequi nam provident, quae
-        modi temporibus laboriosam saepe dolorem iusto ab cupiditate! Doloribus,
-        eaque voluptates. Facilis veritatis qui tempora inventore officiis
-        architecto ducimus velit ipsum enim labore
+        {{mainText}}
       </p>
     </div>
   </div>
@@ -29,6 +25,20 @@ import largeArrow from "../assets/images/large-arrow.svg";
 
 export default {
   name: "InfoBanner",
+  props: {
+    title1: {
+      type: String,
+      required: true,
+    },
+    title2: {
+      type: String,
+      required: true,
+    },
+    mainText: {
+      type: String,
+      required: true,
+    }
+  },
   data() {
     return {
       vrMan,
@@ -55,7 +65,7 @@ export default {
 .arrow-container {
   position: relative;
   top: 22px;
-  left: -72px;
+  left: -32px;
 }
 
 .bold-text {

@@ -1,30 +1,32 @@
 <template>
-    <header>
-        <AppHeader />
-    </header>
-    <main>
-        <AppHero />
-    </main>
-        <AppInfo />
-        <InfoBanner />
-        <AboutHydra />
+  <header>
+    <AppHeader />
+  </header>
+  <section>
+    <AppHero />
+    <AppInfo />
+  </section>
+  <section>
+    <InfoBanner />
+    <AboutHydra />
+  </section>
 </template>
 
 <script>
-    import AppHeader from "./components/AppHeader.vue";
-    import AppHero from "./components/AppHero.vue";
-    import AppInfo from "./components/AppInfo.vue";
-    import InfoBanner from "./components/InfoBanner.vue";
-    import AboutHydra from "./components/AboutHydra.vue";
+import AppHeader from "./components/AppHeader.vue";
+import AppHero from "./components/AppHero.vue";
+import AppInfo from "./components/AppInfo.vue";
+import InfoBanner from "./components/InfoBanner.vue";
+import AboutHydra from "./components/AboutHydra.vue";
 
-    export default {
-    name: "App",
-    components: {
+export default {
+  name: "App",
+  components: {
     AppHeader,
     AppHero,
     AppInfo,
     InfoBanner,
     AboutHydra,
-    },
+  },
 };
 </script>

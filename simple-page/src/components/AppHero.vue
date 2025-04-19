@@ -15,7 +15,8 @@
         aspernatur perferendis voluptas rem aliquam
       </p>
 
-      <a class="btn" href="#">Build your world</a> <img :src="arrowRight" alt="" />
+      <a class="btn" href="#">Build your world</a>
+      <img :src="arrowRight" alt="" />
     </div>
     <div class="image-container">
       <img :src="virtualReality" alt="" />
@@ -69,7 +70,7 @@ main {
   font-weight: 400;
   line-height: 1.6;
   margin: 1.5rem 0;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .text-container > .btn {
@@ -106,6 +107,4 @@ main {
   width: 100%;
   max-width: 432px;
 }
-
-
 </style>

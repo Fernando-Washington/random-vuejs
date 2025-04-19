@@ -12,8 +12,13 @@
       <img :src="largeArrow" alt="Arrow" />
     </div>
     <div class="text-container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, placeat molestias optio maiores mollitia, a sequi nam provident, quae modi temporibus laboriosam saepe dolorem iusto ab cupiditate! Doloribus, eaque voluptates.
-        Facilis veritatis qui tempora inventore officiis architecto ducimus velit ipsum enim labore</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+        placeat molestias optio maiores mollitia, a sequi nam provident, quae
+        modi temporibus laboriosam saepe dolorem iusto ab cupiditate! Doloribus,
+        eaque voluptates. Facilis veritatis qui tempora inventore officiis
+        architecto ducimus velit ipsum enim labore
+      </p>
     </div>
   </div>
 </template>
@@ -48,9 +53,9 @@ export default {
 }
 
 .arrow-container {
-    position: relative;
-    top: 22px;
-    left: -72px;
+  position: relative;
+  top: 22px;
+  left: -72px;
 }
 
 .bold-text {

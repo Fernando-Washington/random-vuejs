@@ -52,7 +52,7 @@ export default {
 <style>
 .info-container {
   display: flex;
-  transform: scale(0.80);
+  transform: scale(0.8);
   align-items: center;
   background: linear-gradient(90deg, #8176afb9, #252525b9);
   padding: 1rem;
@@ -71,8 +71,8 @@ export default {
 .text-container > h3 {
   position: relative;
   top: 18px;
-  color: #FFFFFF;
-} 
+  color: #ffffff;
+}
 
 .image-container > .info-icon {
   width: 48px;

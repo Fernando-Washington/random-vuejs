@@ -1,0 +1,1 @@
+# This project is to train my skills in Tailwind, Daisy UI, and Vue.js.

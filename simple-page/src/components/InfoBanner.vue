@@ -37,7 +37,7 @@ export default {
     mainText: {
       type: String,
       required: true,
-    }
+    },
   },
   data() {
     return {
